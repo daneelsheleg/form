@@ -1,7 +1,10 @@
 .form{
     text-align: center;
-    justify-content: center;
-
+    background: aqua;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px
 }
 .one{
     display: flex;
@@ -17,6 +20,10 @@
     justify-content: center;
     margin-bottom: 20px;
 }
+body{
+    background: green
+}
+
 ul {
     
     width: 120px;

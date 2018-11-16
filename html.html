@@ -11,24 +11,18 @@
 <body>
     <div class='form'>
        <form novalidate>
-           <p>user name</p>
+           <p >user name</p>
            <input  type="text" required pattern="[a-zA-zА-Яа-я]" placeholder="введите имя" class="one" id="name" >
-           <p>email</p>
+           <p  id="color">email</p>
            <input  type="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" placeholder="введите email" class="one" id="email" >
-           <p>password</p>
+           <p >password</p>
            <input  type="password" required  pattern="[a-zA-zА-Яа-я0-9]" placeholder="введите пароль" class="one" id="password" >
-           <p>config</p>
-           <input  type="password"  placeholder="введите пароль" class="one" id="config" >
-           <div class="check">
-            <div>
-                <input type="checkbox" value="men" id="men">
-                <label for="men">men</label>
-            </div>
-            <div>
-                <input type="checkbox" value="women" id="women">
-                <label for="women">women</label>
-            </div>
-        </div>
+           <p   >config</p>
+           <input type="password"  placeholder="введите пароль" class="one" id="config" >
+          <select class="one">
+            <option value="man">man</option>
+            <option value="woman">woman</option>
+          </select>
 
            <input type="button" value="отправить" class="one" id="submit">
            <input type="reset" class="one">
